@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #081b29;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form-box{
+    width: 400px;
+    background: rgba(2, 20, 37, 0.8);
+    margin: 5% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    border: 2px solid #0ef;
+    box-shadow: 0 0 25px #0ef;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top:10px ;
+    padding-bottom: 5px;
+
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+.login-btn{
+    margin: 40px auto;
+    width: 50%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.login-btn:hover{
+    background: darkcyan;
+    color: black;
+}
+.remember-forgot{
+    font-size: .9em;
+    color: antiquewhite;
+    font-weight: 500;
+    margin: -15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: beige;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
